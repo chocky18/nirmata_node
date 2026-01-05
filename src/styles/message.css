@@ -1,0 +1,36 @@
+.message-row {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.message-row.bot {
+    justify-content: flex-start;
+}
+
+.message-row.user {
+    justify-content: flex-end;
+}
+
+.message-bubble {
+    max-width: 80%;
+    padding: 10px 14px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 18px;
+}
+
+/* Bot message */
+.message-bubble.bot {
+    background: #f2f3f5;
+    color: #374151;
+    /* soft dark gray */
+    border-bottom-left-radius: 6px;
+}
+
+/* User message */
+.message-bubble.user {
+    background: #e91e63;
+    color: #ffffff;
+    /* white text */
+    border-bottom-right-radius: 6px;
+}

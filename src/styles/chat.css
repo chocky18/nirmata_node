@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #1f2933;
+    /* primary readable dark */
+}
+
+
+.chat-container {
+    width: 100%;
+    max-width: 480px;
+    height: 90vh;
+
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+
+    font-family: Inter, system-ui, sans-serif;
+}
+
+/* Header */
+.chat-header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+}
+
+.chat-header-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #f3b4c6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+/* Body */
+.chat-body {
+    flex: 1;
+    padding: 16px;
+    overflow-y: auto;
+    background: #fafafa;
+}

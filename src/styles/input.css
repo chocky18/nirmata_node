@@ -1,0 +1,50 @@
+.chat-input {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px;
+    border-top: 1px solid #eee;
+    background: #fff;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 12px 16px;
+    border-radius: 22px;
+    border: 1px solid #d1d5db;
+
+    font-size: 14px;
+    font-weight: 400;
+
+    color: #111827;
+    /* INPUT TEXT COLOR (dark, readable) */
+    caret-color: #e91e63;
+    /* CURSOR color (brand pink) */
+
+    outline: none;
+    background: #ffffff;
+}
+
+.chat-input input::placeholder {
+    color: #9ca3af;
+    /* soft gray placeholder */
+    opacity: 1;
+}
+
+.chat-input input:focus {
+    border-color: #e91e63;
+}
+
+
+
+.chat-input button {
+    border: none;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.send-btn {
+    color: #e91e63;
+    font-weight: 600;
+}
